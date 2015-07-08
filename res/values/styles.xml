@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:circular="http://schemas.android.com/apk/res/com.vimana.widgets.progressbar">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="layout_margin">
+        <item name="android:layout_marginTop">0dip</item>
+        <item name="android:layout_marginBottom">2dip</item>
+        <item name="android:layout_marginRight">20dip</item>
+        <item name="android:layout_marginLeft">20dip</item>
+    </style>
+
+    <style name="caf_textview_small_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">0dip</item>
+        <item name="android:layout_marginBottom">2dip</item>
+        <item name="android:layout_marginRight">20dip</item>
+        <item name="android:layout_marginLeft">20dip</item>
+    </style>
+
+    <style name="caf_textview_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="caf_textview_style_heading">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="caf_textview_caf_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#8eb908</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Widget"></style>
+
+    <style name="Widget.ProgressBar.CircularProgressBar" parent="Widget">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="progressColor">@color/circular_progress_default_progress</item>
+        <item name="hasShadow">true</item>
+        <item name="strokeWidth">20</item>
+        <item name="titleColor">@color/circular_progress_default_title</item>
+        <item name="subtitleColor">@color/circular_progress_default_subtitle</item>
+    </style>
+
+    <style name="Widget.ProgressBar.Holo.CircularProgressBar" parent="Widget.ProgressBar.CircularProgressBar">
+        <item name="hasShadow">false</item>
+        <item name="strokeWidth">5</item>
+    </style>
+
+    <drawable name="translucent_background">#00000000</drawable>
+
+    <style name="Theme.TransBackground" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/translucent_background</item>
+    </style>
+
+</resources>

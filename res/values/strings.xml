@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndBle</string>
+    <string name="app_id">457446357723571</string>
+    <string name="splash_data_new"><b>Precision Measurement Solutions For</b> \n Medical and Weighing Track your Blood Pressure,\n pulse and weight readings</string>
+    <string name="disclaimer_terms_condition">Terms &amp; Privacy</string>
+    <string name="dummy_text">This is the dummy text. Relevant text goes here. This is Sample body text. It will be replaced finally with relevant copy of text\nThis is the dummy text. Relevant text goes here. This is Sample body text. It will be replaced finally with relevant copy of text\nThis is the dummy text. Relevant text goes here. This is Sample body text. It will be replaced finally with relevant copy of text\nThis is the dummy text. Relevant text goes here. This is Sample body text. It will be replaced finally with relevant copy of text\nThis is the dummy text. Relevant text goes here. This is Sample body text. It will be replaced finally with relevant copy of text\nThis is the dummy text. Relevant text goes here. This is Sample body text. It will be replaced finally with relevant copy of text\nThis is the dummy text. Relevant text goes here. This is Sample body text. It will be replaced finally with relevant copy of text. This is the dummy text. Relevant text goes here. This is Sample body text. It will be replaced finally with relevant copy of text\nThis is the dummy text. </string>
+    <string name="alert_do_not_agree">Do You Really Want to Exit out of Application?</string>
+    <string name="alert_title">AND Medical</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="text_button_done">Done</string>
+
+    <!-- Menu/Header -->
+    <string name="device_set_up">Device Setup</string>
+
+    <!-- Device paring -->
+    <string name="dialog_title_paring_complete">Complete...!</string> <!-- Provisional -->
+    <string name="dialog_message_paring_complete">Paring is complete.\nPlease touch the OK button.</string> <!-- Provisional -->
+
+
+    <!-- Dashboard -->
+    <string name="header_dashboard">Dashboard</string>
+    <string name="header_dashboard_guest">Guest Dashboard </string>
+    <string name="indicator_start_receive">Start receiving</string> <!-- provisional -->
+    <string name="indicator_complete_receive">Complete receiving</string> <!-- provisional -->
+    <string name="indicator_during_receive">During receiving</string> <!-- provisional -->
+    <string name="dialog_confirm_exit">Do you want to Exit?</string>
+    <string name="dialog_to_exit">Click yes to exit!</string>
+
+    <!-- Blood Pressure -->
+    <string name="bloodpressure_title">Blood Pressure</string>
+    <string name="bloodpressure_title_systolic">Systolic</string>
+    <string name="bloodpressure_title_diastolic">Diastolic</string>
+    <string name="bloodpressure_title_pulse">Pulse</string>
+
+    <!-- Weight Scale -->
+    <string name="weightscale_title">Weight Scale</string>
+
+    <!-- (Blood Pressure) -->
+    <string name="text_back">back</string>
+    <string name="bloodpressure_item_systolic">systolic</string>
+    <string name="bloodpressure_item_diastolic">diastolic</string>
+    <string name="bloodpressure_item_pulse">pulse</string>
+    <string name="bloodpressure_unit_bpm">bpm</string>
+    <string name="bloodpressure_unit_mmhg">mmHg</string>
+
+    <!-- (Weight Scale) -->
+    <string name="weightscale_history_column_date">Date</string>
+    <string name="weightscale_history_column_weight">Weight</string>
+    <string name="weightscale_history_column_bmi">BMI</string>
+
+    <!-- (Device Setup) -->
+    <string name="paring_title_bloodpressure_monitor">Blood\nPressure\nMonitor</string>
+    <string name="paring_title_weight_scale">Weight\nScale</string>
+    <string name="paring_title_thermometer">Thermometer</string>
+    <string name="paring_message_bloodpressure_monitor">Press the Start button on your blood pressure monitor until you see Pr on the screen. The pairing process will begin shortly after</string>
+    <string name="paring_message_weight_scale">Press the button on the bottom of your scale until you see Pr on the scale\'s screen. The pairing process will begin shortly after</string>
+    <string name="paring_message_thermometer">Press the button on your thermometer until you see an L on the screen. Press the  button again to begin pairing to your mobile device. You will see a Pr on the screen while pairing</string>
+    <string name="paring_message_search">Searching...</string>
+    <string name="paring_message_notice">Ensure Bluetooth is turned on for your device.</string>
+
+</resources>

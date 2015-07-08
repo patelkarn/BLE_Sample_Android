@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top"
+        android:weightSum="2"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+            
+            <include
+                android:id="@+id/blood_pressure_monitor"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                layout="@layout/and_devicesetup_blood_pressure" />
+ 
+            <include
+                android:id="@+id/weight_scale"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                layout="@layout/and_devicesetup_weight_scale" />
+ 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <include
+                android:id="@+id/thermometer"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:visibility="gone"
+                layout="@layout/and_devicesetup_thermometer" />
+
+            <View  
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/llinear_image_switcher"
+        android:layout_width="fill_parent"
+        android:layout_height="280dip"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/cancelActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/app_theme_color"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <ImageSwitcher
+            android:id="@+id/imageSwitcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/cancelActivity"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

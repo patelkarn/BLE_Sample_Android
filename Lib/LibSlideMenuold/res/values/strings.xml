@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="side_menu_logout">Logout</string>
+    <string name="side_menu_dashboard">Dashboard</string>
+    <string name="side_menu_account">Account</string>
+    <string name="side_menu_about">About</string>
+    <string name="side_menu_help">Help</string>
+    <string name="side_menu_signout">Sign Out</string>
+    
+    <string name="side_menu_my_account">My Account</string>
+    <string name="side_menu_add_user">Add New User</string>
+    <string name="side_menu_manage_user">Manage User</string>
+    <string name="side_menu_device_setup">Device Set-up</string>
+    <string name="side_menu_settings">Setting</string>
+    <string name="side_menu_version">Version</string>
+        
+    <string name="side_menu_account_title">My Account</string>
+    <string name="side_menu_account_title_guest">&quot;Guest's account&quot;</string>
+    
+    <string name="side_menu_reminder">Reminder</string>
+    <string name="side_menu_goal_value">Goal Value Setting</string>
+
+    <string name="side_menu_message_signout">Are you sure you want to Sign Out?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <string name="image">Image</string>
+    
+</resources>
